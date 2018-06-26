@@ -1,0 +1,16 @@
+
+div.trackInfo {
+  font-family: Encode Sans Condensed;
+  font-size: 2em;
+  font-weight: bold;
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+#container {
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+}
