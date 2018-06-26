@@ -3,7 +3,7 @@ const spotify = new SpotifyWebApi()
 
 const base = 'https://accounts.spotify.com/'
 const clientId = '8e784d5d534848d1a51a79e87e9ede0d'
-const redirectUri = 'http://localhost:5000'
+const redirectUri = 'https://megadrive.github.io/spotify-web/'
 const responseType = 'token'
 const scopes = ['user-read-currently-playing', 'user-read-playback-state']
 
